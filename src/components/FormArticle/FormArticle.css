@@ -1,0 +1,77 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+form fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: .5rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 6px;
+ 
+  background: hsla(269, 35%, 54%, 1);
+
+  background: linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+}
+
+.female {
+  background: hsl(278, 100%, 98%);
+  border-color: hsla(295, 100%, 50%, 1);
+}
+
+.female:active,
+.female:hover {
+  background: hsla(295, 100%, 50%, 1);
+}
+
+.female.active {
+  background: hsla(295, 100%, 50%, 1);
+}
+
+.male {
+  background: hsl(206, 100%, 97%);
+  border-color: hsla(176, 46%, 67%, 1);
+}
+
+.male:active,
+.male:hover {
+  background: hsla(176, 46%, 67%, 1);
+}
+
+.male.active {
+  background: hsla(176, 46%, 67%, 1);
+}

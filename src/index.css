@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: hsla(269, 35%, 54%, 1);
+
+  background: linear-gradient(
+    130deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    130deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    130deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8962B3", endColorstr="#84D1CC", GradientType=1 );
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 60rem;
+}
+
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #140524;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+main h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 1.5rem 0;
+  color: #fff;
+}
+
