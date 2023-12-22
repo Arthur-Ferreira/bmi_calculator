@@ -18,6 +18,10 @@ input {
   padding: .5rem;
 }
 
+#result {
+  margin-bottom: 2rem;
+}
+
 .btn {
   font-size: 1.2rem;
   font-weight: 700;

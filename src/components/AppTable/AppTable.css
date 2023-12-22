@@ -8,3 +8,26 @@ tr th,
 tr td {
   border: 1px solid #fff;
 }
+
+tr.highlighted {
+  color: black;
+  background: hsla(269, 35%, 54%, 1);
+
+  background: linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    40deg,
+    hsla(269, 35%, 54%, 1) 0%,
+    hsla(176, 46%, 67%, 1) 100%
+  );
+}
